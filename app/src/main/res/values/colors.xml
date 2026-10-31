@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="green_dark">#173F35</color>
+    <color name="green_primary">#287A5C</color>
+    <color name="green_light">#E4F2EC</color>
+    <color name="background">#F3F6F4</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="text_primary">#17211D</color>
+    <color name="text_secondary">#617069</color>
+    <color name="orange">#E98335</color>
+    <color name="orange_light">#FFF0E4</color>
+    <color name="blue">#3678B8</color>
+    <color name="blue_light">#E8F2FB</color>
+    <color name="soil_green">#568D45</color>
+    <color name="soil_light">#EAF3E5</color>
+    <color name="risk_low">#2D815D</color>
+    <color name="risk_medium">#C98219</color>
+    <color name="risk_high">#B63D3D</color>
+</resources>
