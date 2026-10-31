@@ -1,8 +1,6 @@
 # AgroNode
 
-**An Android + ESP32 agricultural sensor-monitoring prototype.** The Android app displays temperature, air humidity and approximate soil moisture with live graphs and a demonstrative environmental-risk indicator. It can also run in **demo mode** without hardware.
-
-> **Prototype, not a validated agricultural warning system.** The risk labels are illustrative thresholds, not calibrated pest/disease predictions. Never use them as the sole basis for crop-management decisions.
+**An Android + ESP32 agricultural sensor-monitoring prototype.** The Android app displays temperature, air humidity and approximate soil moisture with live graphs and a demonstrative environmental-risk indicator. It can also run in **demo mode** without hardware. The intended purpose is to detect plagues early, though it can be used for general monitoring. School project.
 
 ## Features
 
@@ -64,14 +62,3 @@ Run the pure-Java telemetry tests without an Android SDK:
 ```sh
 ./scripts/test-protocol.sh
 ```
-
-## Limitations and next steps
-
-- The firmware uses approximate soil-sensor endpoints; measurements need calibration.
-- The risk score is intentionally simple and unvalidated.
-- The Android app reads from a **previously paired** device by name and does not perform discovery, background reconnection or long-term data persistence.
-- Device/ESP32 integration has not been exercised in this repository review; verify with hardware before distribution.
-
-## Licensing
-
-No open-source license has been specified. Code is provided for review; reuse permissions have not been granted by an explicit license file.
