@@ -62,3 +62,8 @@ Run the pure-Java telemetry tests without an Android SDK:
 ```sh
 ./scripts/test-protocol.sh
 ```
+
+## AI usage
+
+This is **AI-ASSISTED**, primarily in visual design. Though it is verified to work with real components as I have properly connected and tested it in real life. 
+
